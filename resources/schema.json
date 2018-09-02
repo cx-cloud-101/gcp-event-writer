@@ -1,0 +1,6 @@
+[
+  {"type":"STRING","name":"User"},
+  {"type":"INTEGER","name":"Device"},
+  {"type":"STRING","name":"Data"},
+  {"type":"TIMESTAMP","name":"Timestamp"}
+]
