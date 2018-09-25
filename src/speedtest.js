@@ -12,6 +12,8 @@ exports.writeEventToBQ = async (receivedEvent) => {
     projectId: projectId,
   });
 
+  console.log('About to insert: ', event);
+
   await bigquery
     .dataset(datasetId)
     .table(tableId)
