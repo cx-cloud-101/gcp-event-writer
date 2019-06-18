@@ -7,5 +7,5 @@
 
 ## Deploy
 ```$bash
- gcloud functions deploy processSpeedtestEvent --trigger-resource speedtest --trigger-event google.pubsub.topic.publish --runtime nodejs8 --region europe-west1
+ gcloud functions deploy processSpeedtestEvent --trigger-topic speedtest --runtime nodejs8 --region europe-west1
 ```

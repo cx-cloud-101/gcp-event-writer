@@ -1,8 +1,8 @@
 const BigQuery = require('@google-cloud/bigquery');
 
-const projectId = 'computas-universitet';
+const projectId = 'test-ml-engine-244107';
 const datasetId = 'speedtest';
-const tableId = 'event';
+const tableId = 'speedtest_events';
 
 async function writeEventToBQ(receivedEvent) {
     const event = {...receivedEvent, timestamp: new Date(receivedEvent.timestamp)};
