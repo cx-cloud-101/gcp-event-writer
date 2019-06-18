@@ -1,6 +1,6 @@
 const BigQuery = require('@google-cloud/bigquery');
 
-const projectId = 'test-ml-engine-244107';
+const projectId = 'speedtest-workshop';
 const datasetId = 'speedtest';
 const tableId = 'speedtest_events';
 
